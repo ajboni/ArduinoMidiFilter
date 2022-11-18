@@ -9,7 +9,7 @@ The program has two modes:
 To configure just set to 1 the messages that you want to filter in/out.
 
 
-```
+```cpp
 // Deny everything except clock related messages.
 // FILTER MODE: 0 = Whitelist , 1 = Blacklist
 int FILTER_MODE         = 0;
